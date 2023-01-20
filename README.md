@@ -15,5 +15,5 @@ The time dependent solver is initialized at the initial steady state solution. A
   
 - Ouput:  
 The output files are written in the folder "valeurs" 
-  - The steps performed by the simulator are written in an output file called "resultats":
+  - The steps performed by the simulator are written in an output file called "resultats"
   - The electronic density and potential computed by the Schrödinger-Poisson solvers are written in text files
