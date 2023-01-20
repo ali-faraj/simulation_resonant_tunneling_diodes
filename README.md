@@ -5,13 +5,13 @@ Compares the efficiencies of a direct solver (reference) and a solver based on a
 The projection method is based on an accurate algorithm to compute quantum resonances.  
   
 - Makefile:  
-Compile using the makefile with the command make.
+Compile using the makefile with the command "make".
 In the makefile, the variable "FC" should be set to the fortran compiler name and the "LAPACK_FILES" variable should contain the paths to the lapack and blas libraries   
   
 - Input:  
-Initial steady state solution is read from input files. The input file are in the compressed folder valeurs.zip.  
-The input files must be in a folder "valeurs" located in the working folder     
-The time dependent solver is initialised at the initial steady state solution. At time t=0, a shift is applied to external potential bias (forcing potential). The solver compute the time evolution induced by this potential shift
+The initial steady state solution is read from input files. The input files are in the compressed folder valeurs.zip.  
+The input files must be in a folder named "valeurs" located in the working folder     
+The time dependent solver is initialized at the initial steady state solution. At time t=0, a shift is applied to the external potential bias (forcing potential). The solver computes the time evolution induced by this potential shift
   
 - Ouput:  
 The output files are written in the folder "valeurs" 
